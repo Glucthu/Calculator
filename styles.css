@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(30, 144, 172);
+}
+
+#calc{
+    display: grid;
+    grid-template:
+    'bar bar bar'
+    'seven eight nine'
+    'four five six'
+    'one two three';
+    width: 20vw;
+    height: 40vw;
+    background-color: rgb(26, 26, 26);
+}
+
+#bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: bar;
+    background-color: white;
+}
+
+#bar-content{
+    padding: 0;
+    margin: 0;
+}
+
+#bar-content:focus{ outline-style: none; }
+
+#one{ grid-area: one; }
+#two{ grid-area: two; }
+#three{ grid-area: three; }
+#four{ grid-area: four; }
+#five{ grid-area: five; }
+#six{ grid-area: six; }
+#seven{ grid-area: seven; }
+#eight{ grid-area: eight; }
+#nine{ grid-area: nine; }
+
+.number, #bar{ border: 1px solid #111; }
+.number{ background-color: rgb(230, 230, 230); }
+.number:hover{ background-color: rgb(86, 163, 250); }
+.number:focus{ outline-style: none; }
