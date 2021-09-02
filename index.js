@@ -1,7 +1,5 @@
 function insertNumber(num)
 {
-    let TextInsideLi = document.getElementById("bar-content").innerHTML;
-    console.log(num);
-    console.log(bar);
-    document.getElementById("bar-content").innerHTML = num;
+    let bar = document.getElementById("bar-content").value;
+    document.getElementById("bar-content").value = bar + num;
 }
