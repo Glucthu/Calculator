@@ -77,11 +77,21 @@ body{
 
 @media (max-width: 800px) {
     #calc{
+        top: 2vh;
+        transform: translateX(-50%);
         width: 50vw;
         height: 90vh;
     }
     .number:hover{ background-color: rgb(230, 230, 230); }
     .operator:hover{ background-color: rgb(172, 172, 172); }
+
+    #bar-content{
+        font-size: 5vw;
+    }
+
+    .operator, .number{
+        font-size: 7vw;
+    }
 }
 
 @media (min-width: 1500px) {
