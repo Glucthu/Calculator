@@ -78,7 +78,7 @@ body{
 @media (max-width: 800px) {
     #calc{
         width: 50vw;
-        height: 100vh;
+        height: 90vh;
     }
     .number:hover{ background-color: rgb(230, 230, 230); }
     .operator:hover{ background-color: rgb(172, 172, 172); }
