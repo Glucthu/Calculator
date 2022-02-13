@@ -80,7 +80,7 @@ body{
 
 @media (max-width: 800px) {
     #calc{
-        width: 150px;
+        width: 200px;
     }
 
     .number:hover{ background-color: rgb(230, 230, 230); }
@@ -97,13 +97,25 @@ body{
 
 @media (min-width: 800px) {
     #calc{
-        width: 250px;
+        width: 400px;
+    }
+}
+
+@media (min-width: 500px) {
+    #calc{
+        width: 450px;
+    }
+}
+
+@media (min-width: 600px) {
+    #calc{
+        width: 500px;
     }
 }
 
 @media (min-width: 1200px) {
     #calc{
-        width: 400px;
+        width: 600px;
     }
 }
 
@@ -128,12 +140,12 @@ body{
 
 @media (min-height: 800px) {
 	#calc{
-		height: 600px;
+		height: 550px;
 	}
 }
 
 @media (min-height: 1000px) {
 	#calc{
-		height: 800px;
+		height: 600px;
 	}
 }
